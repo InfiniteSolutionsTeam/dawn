@@ -369,6 +369,12 @@ body,
   overflow: hidden;
 }
 
+body.overflow-hidden {
+  position: fixed;
+  overflow-y: scroll;
+  width: 100%;
+}
+
 .skip-to-content-link:focus {
   z-index: 9999;
   position: inherit;
